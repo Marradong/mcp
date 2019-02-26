@@ -17,8 +17,8 @@ def auto_reset(com_port_name):
 #run avrdude to program the Arduino
 def program_with_avrdude(com_port_name, hex_file):
     #call avrdude
-    subprocess.call(["C:/Program Files/Arduino/hardware/tools/avr/bin/avrdude.exe",
-        "-CC:/Program Files/Arduino/hardware/tools/avr/etc/avrdude.conf",
+    subprocess.call(["avrdude.exe",
+        "-Cavrdude.conf",
         "-F",
         "-v",
         "-p", "atmega2560",
