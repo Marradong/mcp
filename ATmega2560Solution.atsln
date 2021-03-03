@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Robot", "Robot\Robot.cproj", "{00C10CD6-911C-465B-B187-B3BB5358C667}"
+EndProject
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "Controller", "Controller\Controller.cproj", "{7D294C69-9E7B-4C82-8DD4-A41C581D642E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00C10CD6-911C-465B-B187-B3BB5358C667}.Debug|AVR.ActiveCfg = Debug|AVR
+		{00C10CD6-911C-465B-B187-B3BB5358C667}.Debug|AVR.Build.0 = Debug|AVR
+		{00C10CD6-911C-465B-B187-B3BB5358C667}.Release|AVR.ActiveCfg = Release|AVR
+		{00C10CD6-911C-465B-B187-B3BB5358C667}.Release|AVR.Build.0 = Release|AVR
+		{7D294C69-9E7B-4C82-8DD4-A41C581D642E}.Debug|AVR.ActiveCfg = Release|AVR
+		{7D294C69-9E7B-4C82-8DD4-A41C581D642E}.Debug|AVR.Build.0 = Release|AVR
+		{7D294C69-9E7B-4C82-8DD4-A41C581D642E}.Release|AVR.ActiveCfg = Release|AVR
+		{7D294C69-9E7B-4C82-8DD4-A41C581D642E}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
